@@ -1,0 +1,24 @@
+{
+  "name": "midterm-project",
+  "version": "1.0.0",
+  "description": "Julianna Dioguardi 010",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diog0007/midterm-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diog0007/midterm-project/issues"
+  },
+  "homepage": "https://github.com/diog0007/midterm-project#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
