@@ -1,4 +1,41 @@
-body {
-  background-color: #fff;
-  color: #322640;
-  font-family: 100% "mada", sans-serif; }
+body{
+   font-family: 'Mada', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: 1% 0;
+    font-size: 1em;
+}
+
+.navbar-brand{
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 15px;
+}
+
+.navbar-inverse .navbar-nav .active a, .nav-bar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a{
+    color: #FBD0E7;
+}
+
+.carousel-caption{
+    background-color: #322640;
+    opacity: 0.7;
+}
+
+.btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 22px;
+    background-color: #8A79C0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
