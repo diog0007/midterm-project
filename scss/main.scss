@@ -1,3 +1,5 @@
+@import ".../node_modules/bootstrap/scss/bootstrap";
+
 $grey-text: #222;
 $white: #fff;
 $light-pink: #FABED6;
@@ -15,4 +17,10 @@ body {
   background-color: $white;
   color: $deep-purple;
   font-family: 100% $font-stack;
+}
+
+html{
+  @include  media-breakpoint-up(sm){$font-size-small}
+  @include  media-breakpoint-up(md){$font-size-med}
+  @include  media-breakpoint-up(lg){$font-size-big}
 }
